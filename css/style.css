@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    height: 70px;
+    display: flex;
+    background-color: #222;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+}
+
+ul li {
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #ff0000;
+}
